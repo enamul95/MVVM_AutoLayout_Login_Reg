@@ -11,7 +11,7 @@
         <scene sceneID="6h3-L1-CxY">
             <objects>
                 <tableViewController id="a9W-IJ-IKj" customClass="LoginViewController" customModule="MMVMExample" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" bouncesZoom="NO" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2eM-N3-Osc">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" bouncesZoom="NO" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2eM-N3-Osc" customClass="TPKeyboardAvoidingTableView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -60,6 +60,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kk5-YC-Gjh">
                                                     <rect key="frame" x="30" y="409" width="354" height="30"/>
                                                     <state key="normal" title="Login"/>
+                                                    <connections>
+                                                        <action selector="btnLogin:" destination="a9W-IJ-IKj" eventType="touchUpInside" id="VZ1-aw-oZM"/>
+                                                    </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAF-Qk-GS1">
                                                     <rect key="frame" x="30" y="459" width="354" height="30"/>
@@ -177,6 +180,10 @@
                             <outlet property="delegate" destination="a9W-IJ-IKj" id="xGE-if-8Ud"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="txtEamil" destination="Cvm-PU-EW0" id="FkV-mj-u3L"/>
+                        <outlet property="txtPassword" destination="gAw-4o-zVQ" id="dJv-Oe-pka"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ple-pS-Tct" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="txt-Ej-9ij">
