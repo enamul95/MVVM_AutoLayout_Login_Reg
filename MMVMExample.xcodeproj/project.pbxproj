@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		B75E842A25DEEF2700B55648 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E842925DEEF2700B55648 /* LoginViewController.swift */; };
 		B7F7B10025E0E10F00984F38 /* String+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7B0FF25E0E10F00984F38 /* String+Extenstion.swift */; };
 		B7F7B10325E0E20B00984F38 /* UIAlertConttroler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7B10225E0E20B00984F38 /* UIAlertConttroler+Extension.swift */; };
+		B7F7B10925E0EE5600984F38 /* SingnUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7B10825E0EE5500984F38 /* SingnUpViewController.swift */; };
 		F4DD775313C53C182C941B0E /* Pods_MMVMExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B07859F4736D85995928B7 /* Pods_MMVMExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		B75E842925DEEF2700B55648 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B7F7B0FF25E0E10F00984F38 /* String+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extenstion.swift"; sourceTree = "<group>"; };
 		B7F7B10225E0E20B00984F38 /* UIAlertConttroler+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertConttroler+Extension.swift"; sourceTree = "<group>"; };
+		B7F7B10825E0EE5500984F38 /* SingnUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingnUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,6 @@
 				891BCBB60D8CB546A9881B4C /* Pods-MMVMExample.debug.xcconfig */,
 				8FD74E2A5B541E50390FDEF7 /* Pods-MMVMExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +86,7 @@
 				B7F7B0FF25E0E10F00984F38 /* String+Extenstion.swift */,
 				B7F7B10225E0E20B00984F38 /* UIAlertConttroler+Extension.swift */,
 				B75E842925DEEF2700B55648 /* LoginViewController.swift */,
+				B7F7B10825E0EE5500984F38 /* SingnUpViewController.swift */,
 				B75E841A25DEDDC500B55648 /* Main.storyboard */,
 				B75E841D25DEDE2000B55648 /* Assets.xcassets */,
 				B75E841F25DEDE2000B55648 /* LaunchScreen.storyboard */,
@@ -218,6 +220,7 @@
 				B75E842A25DEEF2700B55648 /* LoginViewController.swift in Sources */,
 				B75E841925DEDDC400B55648 /* ViewController.swift in Sources */,
 				B75E841525DEDDC400B55648 /* AppDelegate.swift in Sources */,
+				B7F7B10925E0EE5600984F38 /* SingnUpViewController.swift in Sources */,
 				B7F7B10025E0E10F00984F38 /* String+Extenstion.swift in Sources */,
 				B7F7B10325E0E20B00984F38 /* UIAlertConttroler+Extension.swift in Sources */,
 				B75E841725DEDDC400B55648 /* SceneDelegate.swift in Sources */,
