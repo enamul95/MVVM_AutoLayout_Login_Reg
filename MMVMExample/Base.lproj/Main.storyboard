@@ -218,12 +218,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="828"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle.fill.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iD3-4s-EJQ">
+                                                <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle.fill.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iD3-4s-EJQ">
                                                     <rect key="frame" x="130.5" y="60" width="151.5" height="149.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="150" id="0e6-Wg-d60"/>
                                                         <constraint firstAttribute="height" constant="150" id="B9z-67-uAA"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="75"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaK-fO-ZMs">
                                                     <rect key="frame" x="30" y="240" width="354" height="20.5"/>

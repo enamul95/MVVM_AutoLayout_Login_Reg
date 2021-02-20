@@ -37,7 +37,7 @@ class SingnUpViewController: UITableViewController {
     
    
     @IBAction func btnSignupClicked(_ sender: UIButton) {
-           let imgSystem = UIImage(systemName: "person.crop.circle.badge.plus")
+           let imgSystem = UIImage(systemName: "person.crop.circle.fill.badge.plus")
            
            if imgProfile.image?.pngData() != imgSystem?.pngData(){
                // profile image selected
