@@ -8,5 +8,6 @@ target 'MMVMExample' do
   # Pods for MMVMExample
 
    pod 'TPKeyboardAvoiding'
-
+   pod 'IQKeyboardManagerSwift'
+   pod 'Alamofire', '~> 5.2'
 end
